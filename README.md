@@ -1,10 +1,6 @@
-# Omnipay: PayZen  
+# Omnipay: EpayNC 
 
-**PayZen driver for the Omnipay PHP payment processing library**
-
-[![Build Status](https://travis-ci.org/ubitransports/omnipay-payzen.png?branch=master)](https://travis-ci.org/ubitransports/omnipay-payzen)
-[![Latest Stable Version](https://poser.pugx.org/ubitransports/omnipay-payzen/version.png)](https://packagist.org/packages/ubitransports/omnipay-payzen)
-[![Total Downloads](https://poser.pugx.org/ubitransports/omnipay-payzen/d/total.png)](https://packagist.org/packages/ubitransports/omnipay-payzen)
+**EpayNC driver for the Omnipay PHP payment processing library**
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements SecurePay support for Omnipay.
@@ -17,7 +13,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "ubitransports/omnipay-payzen": "dev-master"
+        "oneshot-nc/omnipay-epaync": "dev-master"
     }
 }
 ```
@@ -31,7 +27,7 @@ And run composer to update your dependencies:
 
 The following gateways are provided by this package:
 
-* PayZen
+* EpayNC
 
 For general usage instructions, please see the main [Omnipay](https://github.com/omnipay/omnipay)
 repository.
